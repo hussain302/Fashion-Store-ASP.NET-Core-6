@@ -1,0 +1,15 @@
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.csproj.AssemblyReference.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.AssemblyInfoInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.AssemblyInfo.cs
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.csproj.CoreCompileInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\refint\FashionStore.Repositories.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\bin\Debug\net6.0\FashionStore.Repositories.deps.json
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\bin\Debug\net6.0\FashionStore.Repositories.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\bin\Debug\net6.0\FashionStore.Repositories.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\bin\Debug\net6.0\FashionStore.Data.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\bin\Debug\net6.0\FashionStore.Data.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\FashionStore.Repositories.csproj.CopyComplete
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Repositories\obj\Debug\net6.0\ref\FashionStore.Repositories.dll

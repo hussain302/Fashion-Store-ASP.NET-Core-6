@@ -1,0 +1,44 @@
+﻿@model IEnumerable<OrderModel>
+@{
+    ViewData["Title"] = "Oredrs";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container">
+    <div>
+        <br /><br />
+        <h1> Orders  <i class="fa fa-truck"></i> </h1>
+        <br /><br />
+    </div>
+    <div class="card">
+        <table class="table table-hover">
+            <tr>
+                <th> Title </th>
+                <th> Price </th>
+                <th> Quantity </th>
+                <th> Options </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td> @item.Name </td>
+                    <td> @item.User.FirstName + @item.User.LastName </td>
+                    <td> @item.OrderAssignedDate </td>
+                    <td> @item.ExpectedDeliveryDate </td>
+                    <td>
+                        <ul>
+                            @foreach (var product in @item.Cart.CartItems)
+                            {
+                                <li><b> Title </b> @product.Title, <b> Price </b> @product.ItemPrice</li>
+                            }
+                        </ul>
+                    </td>
+                    <td> @item.Status </td>
+                </tr>
+            }
+        </table>
+        <div class="text-center mt-3 mb-5">
+            <a class="btn-outline-danger btn btn-sm"> Cancel Order <i class="fa fa-cross"></i> </a>
+        </div>
+    </div>
+</div>

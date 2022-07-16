@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Men's";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="text-center card">
+        <h1> Men's Collection  <i class="fa fa-men"></i> </h1>
+    </div>
+    <br /><br />
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="@item.ImageModelURL" class="card-img-top" alt="null">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text"> @item.ProductType.Name </p>
+                        <p class="card-text">@item.Fabric</p>
+                        <p class="card-text">@item.Price</p>
+                        <div class="row">
+                            <a href="~/Cart/Add/@item.Id" class="m-1 col btn btn-outline-info">Add to Cart</a>
+                            <a href="~/Customer/details/@item.Id" class="m-1 col btn btn-outline-danger">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        }
+            <br />
+    </div>
+ 
+</div>

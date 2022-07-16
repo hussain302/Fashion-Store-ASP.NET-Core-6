@@ -1,0 +1,35 @@
+﻿@model OrderStatusModel
+@{
+    ViewData["Title"] = "Delete Status";
+}
+
+<div class="card p-3">
+    <div class="mt-5">
+        <h1 class="display-3">@ViewData["Title"] <i class="fa fa-cogs"></i></h1>
+        <div class="mt-4">
+            <a asp-action="Manage" class="btn-outline-primary btn" asp-controller="OrderStatus" >Back to Manage <i class="fa fa-arrow-left"></i></a>
+        </div>
+    </div>
+    <br /><br />
+
+    <div class="">
+        <h4 class="display-5"> Are you sure to remove Status: <b> @Model.Name?</b> </h4>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-3">
+            <h5> Status Name </h5>
+        </div>
+        <div class="col-9">
+            <p> @Model.Name</p>
+        </div>
+    </div>
+    
+    <div class="mt-5">
+        @using (Html.BeginForm("Delete", "OrderStatus", FormMethod.Post, new { @id = "StatusForm" }))
+        {
+            <input  hidden="hidden" asp-for="Id" />          
+            <button class="btn-outline-danger btn" type="submit">Delete</button>
+        }
+    </div>
+</div>

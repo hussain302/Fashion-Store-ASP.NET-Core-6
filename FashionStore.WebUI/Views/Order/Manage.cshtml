@@ -1,0 +1,42 @@
+﻿@using FashionStore.Data.Products
+@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "Orders";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div>
+        <br /><br />
+        <h1> Orders  <i class="fa fa-truck"></i> </h1>
+        <br /><br />
+    </div>
+    <div class="card">
+        <table class="table table-hover">
+            <tr>
+                <th> Title </th>
+                <th> User </th>
+                <th> Phone </th>
+                <th> Price </th>
+                <th> Status </th>
+                <th> Options </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td> @item.Name </td>
+                    <td> @item.UserName </td>
+                    <td> @item.Phone </td>
+                    <td> @item.TotalPrice </td>
+                    <td> @item.Status.Name </td>
+                    <td>
+                        <a class="btn btn-outline-success" asp-action="Approve" asp-controller="Order" asp-route-id="@item.Id"> <i class="fa fa-check"></i> </a>
+                        <a class="btn btn-outline-danger" asp-action="Delete" asp-controller="Order" asp-route-id="@item.Id"> <i class="fa fa-trash"></i> </a>
+                        <a class="btn btn-outline-info" asp-action="Delivered" asp-controller="Order" asp-route-id="@item.Id"> <i class="fa fa-truck"></i> </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

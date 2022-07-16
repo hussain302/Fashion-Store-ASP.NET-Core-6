@@ -1,0 +1,33 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Fragrances";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="text-center card">
+        <h1> Title: @Model.Name   <i class="fa fa-shopping-bag"></i> </h1>
+    </div>
+    <br /><br />
+    <div class="row">
+        <div class="col-6">
+            <img src="@Model.ImageModelURL" alt="@Model.Name" />
+        </div>
+        <div class="col-6">
+
+            <h1> Fabric </h1>
+            <p>@Model.Fabric</p>
+            <br />
+            <h1> Description </h1>
+            <p>@Model.Description</p>
+            <br />
+            <h1> Price </h1>
+            <p>@Model.Price</p>
+            <br />
+            <a href="~/Cart/Add/@Model.Id" class="col m-1 btn btn-outline-info">Add to Cart <i class="fa fa-shopping-bag"></i></a>
+        </div>
+        <br />
+    </div>
+
+</div>

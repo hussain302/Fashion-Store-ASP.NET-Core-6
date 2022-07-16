@@ -1,0 +1,53 @@
+﻿@model ProductTypeModel
+@{
+    ViewData["Title"] = "Delete Type";
+}
+
+<div class="card p-3">
+    <div class="mt-5">
+        <h1 class="display-3">@ViewData["Title"] <i class="fa fa-cogs"></i></h1>
+        <div class="mt-4">
+            <a asp-action="Manage" class="btn-outline-primary btn" asp-controller="Type" >Back to Manage <i class="fa fa-arrow-left"></i></a>
+        </div>
+    </div>
+    <br /><br />
+
+    <div class="">
+        <h4 class="display-5"> Are you sure to remove type: <b> @Model.Name?</b> </h4>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-3">
+            <h5> Type Name </h5>
+        </div>
+        <div class="col-9">
+            <p> @Model.Name</p>
+        </div>
+    </div>
+    
+    <div class="row mt-3">
+        <div class="col-3">
+            <h5>Description</h5>
+        </div>
+        <div class="col-9">
+            <p> @Model.Description  </p>
+        </div>
+    </div>
+
+     <div class="row mt-3">
+        <div class="col-3">
+            <h5>Created By</h5>
+        </div>
+        <div class="col-9">
+            <p> @Model.CreatedBy  </p>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        @using (Html.BeginForm("Delete", "Type", FormMethod.Post, new { @id = "TypeForm" }))
+        {
+             <input hidden="hidden" asp-for="Id" />          
+            <button class="btn-outline-danger btn" type="submit">Delete</button>
+        }
+    </div>
+</div>

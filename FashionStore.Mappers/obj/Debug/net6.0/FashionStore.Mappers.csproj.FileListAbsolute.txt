@@ -1,0 +1,17 @@
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Mappers.deps.json
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Mappers.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Mappers.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Data.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Model.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Data.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\bin\Debug\net6.0\FashionStore.Model.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.csproj.AssemblyReference.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.AssemblyInfoInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.AssemblyInfo.cs
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.csproj.CoreCompileInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.csproj.CopyComplete
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\refint\FashionStore.Mappers.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\FashionStore.Mappers.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Mappers\obj\Debug\net6.0\ref\FashionStore.Mappers.dll

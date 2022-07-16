@@ -1,0 +1,92 @@
+﻿@model IEnumerable<ProductModel>
+
+@{
+    ViewData["Title"] = "Manage Products";
+}
+
+<div class="card p-3">
+    <div class="jumbotron mt-5">
+        <h1 class="display-3">@ViewData["Title"] <i class="fa fa-cogs"></i></h1>
+        <div class="mt-4">
+            <a asp-action="Create" class="btn-outline-primary btn" asp-controller="Product" asp-route-id="">Add Product <i class="fa fa-plus"></i></a>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                   <th>#</th>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Fabric</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Featured</th>
+                    <th>Created By</th>
+                    <th>Created At</th>
+                    <th>Updated By</th>
+                    <th>Updated At</th>
+                    <th>Actions</th>
+                </tr>                
+            </thead>
+            <tbody>
+                @foreach (var cat in Model)
+                {
+                     <tr>
+                        <th>@cat.Id</th>
+                        <td>
+                            @if(cat.ImageModelURL == null){
+                                <span> None </span>
+                            }
+                            else
+                            {
+                                <img src="@cat.ImageModelURL" alt="null" style="width:70px;height:70px;" />
+                            }
+                            </td>
+                        <td>@cat.Name</td>
+                        <td>@cat.Description</td>
+                        <td>@cat.ProductCategory.Name</td>
+                        <td>@cat.ProductType.Name</td>
+                        <td>@cat.Fabric</td>
+                        <td>@cat.Price</td>
+                        <td>@cat.Quantity</td>
+                        <td>
+                            @if(cat.IsFeatured == true){
+                                <span><b>Featured</b></span>
+                            }
+                            else{
+                                <span><b>Not Featured</b></span>
+                            }
+                        </td>
+                        <td>@cat.CreatedBy</td>
+                        <td>@cat.CreatedAt</td>
+                        <td>
+                            @if(cat.UpdatedBy == null){
+                                <span> - </span>
+                            }
+                            else{
+                                <span>@cat.UpdatedBy</span>
+                            }
+                        </td>
+                        <td>
+                            @if(cat.UpdatedAt == null){
+                                <span> - </span>
+                            }
+                            else{
+                                <span>@cat.UpdatedAt.ToString()</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="Edit" class="btn-outline-warning btn" asp-controller="Product" asp-route-id="@cat.Id"><i class="fa fa-edit"></i></a>
+                            <a asp-action="Delete" class="btn-outline-danger btn" asp-controller="Product" asp-route-id="@cat.Id"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>   
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

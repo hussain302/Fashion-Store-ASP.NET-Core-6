@@ -1,0 +1,65 @@
+﻿@model UserModel
+
+@{
+    ViewData["Title"] = "Sign up";
+    Layout = "~/Views/Shared/_MinimalLayout.cshtml";
+}
+
+<div class="container p-3">
+    <div class="mt-5 text-center">
+        <h1 class="display-3">@ViewData["Title"] </h1>
+    </div>
+
+    <div class="mt-5">
+        @using (Html.BeginForm("SignUp", "User", FormMethod.Post, new { @id = "SignUpForm" }))
+        {
+                @*<input hidden="hidden" asp-for="RoleId" value="2" />*@
+                <div class="row">
+                   <div class="col-6">
+                        <label>First Name</label>
+                        <div class="mt-1">
+                        @Html.TextBoxFor(model => model.FirstName, new {@class="form-control"})
+                        </div>
+                   </div>
+                   <div class="col-6">
+                        <label>Last Name</label>
+                        <div class="mt-1">
+                        @Html.TextBoxFor(model => model.LastName, new {@class="form-control"})
+                        </div>
+                   </div>                
+                </div>
+                <div class="">
+                        <label>Email Address</label>
+                        <div class="mt-1">
+                    @Html.TextBoxFor(model => model.Email, new {@class="form-control"})
+                        </div>
+                </div>
+                <div class="">
+                        <label>Password</label>
+                        <div class="mt-1">
+                    @Html.TextBoxFor(model => model.Password, new {@class="form-control"})
+                        </div>
+                   </div>
+                   <div class="">
+                        <label>Phone</label>
+                        <div class="mt-1">
+                    @Html.TextBoxFor(model => model.Phone, new {@class="form-control"})
+                        </div>
+                   </div>
+                
+                    <div class="">
+                        <label>Address</label>
+                        <div class="mt-1">
+                    @Html.TextBoxFor(model => model.Address, new {@class="form-control"})
+                        </div>
+                   </div>
+                    <br />
+
+            <div>
+                <button class="btn-outline-success btn" type="submit">Register</button> | <small class="text-dark"> Already Have an account? <a class="text-primary" href="~/User/Login"> Click here</a> </small>
+            </div>
+            
+        }
+        
+    </d>
+</div>

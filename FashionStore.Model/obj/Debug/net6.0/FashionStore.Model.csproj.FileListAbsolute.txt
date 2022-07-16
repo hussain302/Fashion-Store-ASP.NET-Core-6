@@ -1,0 +1,48 @@
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.deps.json
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.dll
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.pdb
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.AssemblyReference.cache
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.GeneratedMSBuildEditorConfig.editorconfig
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfoInputs.cache
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfo.cs
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.CoreCompileInputs.cache
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.dll
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\refint\FashionStore.Model.dll
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.pdb
+G:\Practices (Dotnet)\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\ref\FashionStore.Model.dll
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.deps.json
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.dll
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.pdb
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.AssemblyReference.cache
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.GeneratedMSBuildEditorConfig.editorconfig
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfoInputs.cache
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfo.cs
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.CoreCompileInputs.cache
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.dll
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\refint\FashionStore.Model.dll
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.pdb
+G:\University-Project-Dotnet\FashionStore\FashionStore.Model\obj\Debug\net6.0\ref\FashionStore.Model.dll
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.deps.json
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.dll
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.pdb
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.AssemblyReference.cache
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfoInputs.cache
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfo.cs
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.CoreCompileInputs.cache
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.dll
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\refint\FashionStore.Model.dll
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.pdb
+C:\Users\anxar\OneDrive\Desktop\FashionStore\FashionStore.Model\obj\Debug\net6.0\ref\FashionStore.Model.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.deps.json
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\bin\Debug\net6.0\FashionStore.Model.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.AssemblyReference.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfoInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.AssemblyInfo.cs
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.csproj.CoreCompileInputs.cache
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\refint\FashionStore.Model.dll
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\FashionStore.Model.pdb
+D:\Work\MCS\4th Semester\Adv Software Development Tech\FashionStore\FashionStore.Model\obj\Debug\net6.0\ref\FashionStore.Model.dll

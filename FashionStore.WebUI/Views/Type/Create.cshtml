@@ -1,0 +1,40 @@
+﻿@model ProductTypeModel
+@{
+    ViewData["Title"] = "Create Product Type";
+}
+
+<div class="card p-3">
+    <div class="jumbotron mt-5">
+        <h1 class="display-3">@ViewData["Title"] <i class="fa fa-cogs"></i></h1>
+        <div class="mt-4">
+            <a asp-action="Manage" class="btn-outline-primary btn" asp-controller="Type">Back to Manage <i class="fa fa-arrow-left"></i></a>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        @using (Html.BeginForm("Create", "Type", FormMethod.Post, new { @id = "TypeForm" }))
+        {
+           <div class="mt-3">
+            <label>Type Name</label>
+            <div class="mt-1">
+                    @Html.TextBoxFor(model => model.Name, new {@class="form-control"})
+            </div>
+        </div>
+        <div  class="mt-3">
+            <label>Type Details</label>
+            <div class="mt-1">
+                <textarea rows="3" class="form-control" asp-for="Description" placeholder="Enter Details" >
+                </textarea>
+            </div>
+        </div>
+        <div  class="mt-3">
+            <label>Created By</label>
+            <div class="mt-1">
+                    @Html.TextBoxFor(model => model.CreatedBy, new {@class="form-control"})
+            </div>
+        </div>
+        <br />
+        <button class="btn-outline-primary btn" type="submit">Add Type</button>
+        }
+    </div>
+</div>
